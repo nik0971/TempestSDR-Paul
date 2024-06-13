@@ -23,7 +23,7 @@ export PATH=$PATH:/opt/cross_win64/bin:/opt/cross_win32/bin
 CCs=(x86_64-w64-mingw32- i686-w64-mingw32- "" "")
 OSNAMEs=(WINDOWS WINDOWS LINUX LINUX)
 ARCHNAMEs=(X64 X86 X64 X86)
-JAVA_HOMEs=($C/PROGRA~2/Java/jdk1.7.0_45 $C/PROGRA~2/Java/jdk1.7.0_45 /usr/lib/jvm/java-6-openjdk-amd64 /usr/lib/jvm/java-6-openjdk-amd64)
+JAVA_HOMEs=($C/PROGRA~2/Java/jdk1.7.0_45 $C/PROGRA~2/Java/jdk1.7.0_45 /usr/lib/jvm/java-8-openjdk-armhf /usr/lib/jvm/java-8-openjdk-armhf)
 
 make clean
 make java
