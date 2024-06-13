@@ -94,9 +94,9 @@ ifeq ($(OSNAME),LINUX)
 endif
 
 ifeq ($(ARCHNAME),X86)
-	COMPILATION_TYPE=-m32
+	COMPILATION_TYPE=
 else ifeq ($(ARCHNAME),X64)
-	COMPILATION_TYPE=-m64
+	COMPILATION_TYPE=
 endif
 
 # If you need a different directory structure. Don't change that unless you really want to.
