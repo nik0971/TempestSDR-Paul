@@ -1,0 +1,6 @@
+librtlsdr driver. Work in progress.
+
+Compile it with
+
+    make all
+	
